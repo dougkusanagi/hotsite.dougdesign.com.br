@@ -19,11 +19,13 @@ useHead({
         <img
           class="rounded-full shadow w-52"
           src="/douglas-lopes-fotografia-p&b.png"
-          alt=""
+          alt="fotografia p&b de Douglas Lopes "
+          width="208"
+          height="216"
         />
 
         <div class="flex flex-col gap-2">
-          <h2 class="text-xl font-bold text-yellow-600">
+          <h2 class="text-xl font-bold text-yellow-700">
             Hi, i'm Douglas Lopes
           </h2>
 
@@ -36,7 +38,7 @@ useHead({
         <div class="flex gap-4">
           <a
             href="#"
-            class="bg-white text-[#699bd8] font-medium w-44 h-14 flex items-center justify-center rounded-lg shadow hover:bg-slate-100 hover:translate-y-[2px] hover:shadow-none hover:border hover:border-white transition-all duration-100"
+            class="bg-white text-[#4c79af] font-medium w-44 h-14 flex items-center justify-center rounded-lg shadow hover:bg-slate-100 hover:translate-y-[2px] hover:shadow-none hover:border hover:border-white transition-all duration-100"
           >
             My Work
           </a>
@@ -52,7 +54,7 @@ useHead({
 
       <article class="flex flex-col gap-6 mt-16 mx-14">
         <div class="flex flex-col gap-2">
-          <h2 class="text-xl font-bold text-yellow-600">Some recent works</h2>
+          <h2 class="text-xl font-bold text-yellow-700">Some recent works</h2>
 
           <div class="flex gap-4 mt-3">
             <div
@@ -62,6 +64,8 @@ useHead({
                 class="max-h-24"
                 src="/portfolio-logo-1.svg"
                 alt="Logo Cantinho do Podcast"
+                width="111"
+                height="111"
               />
             </div>
 
@@ -72,6 +76,8 @@ useHead({
                 class="max-h-20"
                 src="/portfolio-logo-2.svg"
                 alt="Logo Cordeiro Advogados"
+                width="70"
+                height="80"
               />
             </div>
 
@@ -82,6 +88,8 @@ useHead({
                 class="max-h-24"
                 src="/portfolio-logo-3.svg"
                 alt="Logo Escola Nossa Senhora de Fátima"
+                width="95"
+                height="96"
               />
             </div>
           </div>
