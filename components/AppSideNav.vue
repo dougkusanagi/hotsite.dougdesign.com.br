@@ -36,15 +36,30 @@
 
     <div class="flex gap-2 mx-auto">
       <a href="https://www.facebook.com/DougDesignReal/" target="_blank">
-        <img src="/social-facebook-icon.svg" alt="facebook" />
+        <img
+          src="/social-facebook-icon.svg"
+          alt="facebook"
+          width="38"
+          height="38"
+        />
       </a>
 
       <a href="https://www.instagram.com/doouglopes/" target="_blank">
-        <img src="/social-instagram-icon.svg" alt="instagram" />
+        <img
+          src="/social-instagram-icon.svg"
+          alt="instagram"
+          width="38"
+          height="38"
+        />
       </a>
 
       <a href="https://twitter.com/DougLopesReal" target="_blank">
-        <img src="/social-twitter-icon.svg" alt="twitter" />
+        <img
+          src="/social-twitter-icon.svg"
+          alt="twitter"
+          width="38"
+          height="38"
+        />
       </a>
     </div>
   </nav>
