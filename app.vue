@@ -1,3 +1,11 @@
+<script setup>
+useHead({
+  htmlAttrs: {
+    lang: "en",
+  },
+});
+</script>
+
 <template>
   <header>
     <title>Douglas Lopes</title>
