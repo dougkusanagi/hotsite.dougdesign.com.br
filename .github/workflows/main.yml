@@ -6,23 +6,44 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 🚚 Get latest code
-        uses: actions/checkout@v3
-
-      # - name: Use Node.js 16
-      #   uses: actions/setup-node@v2
-      #   with:
-      #     node-version: "16"
+        uses: actions/checkout@main
 
       - name: Setup Bun
         uses: oven-sh/setup-bun@v1
 
       - name: 🔨 Build Project
-        # run: |
-        #   npm install
-        #   npm run build
         run: |
           bun install
           bun run build
+
+      - name: Archive nuxt dist
+        uses: actions/upload-artifact@main
+        with:
+          name: dist
+          path: dist
+
+      # - name: 📂 Sync files
+      #   uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      #   with:
+      #     server: 108.181.92.67
+      #     username: jefrovt1
+      #     password: ${{ secrets.ftp_pass }}
+      #     server-dir: public_html/hotsite/
+
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    needs: web-deploy
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@main
+
+      # Download
+      - name: Download artifact
+        uses: actions/download-artifact@main
+        with:
+          name: dist
+          path: dist
 
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
