@@ -3,6 +3,13 @@ useHead({
   htmlAttrs: {
     lang: "en",
   },
+  meta: [
+    {
+      name: "description",
+      content:
+        "I'm Douglas Lopes, a Frelancer Designer and Full Stack Dev. I design logos, websites and code in Javascript and PHP since 2014.",
+    },
+  ],
 });
 </script>
 
