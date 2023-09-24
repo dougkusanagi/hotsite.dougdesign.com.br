@@ -1,38 +1,24 @@
-name: Build and deploy
-on:
-  push:
-    branches: [main]
-  workflow_dispatch:
-
+on: push
+name: 🚀 Deploy website on push
 jobs:
-  build:
-    name: ⛏ Build
+  web-deploy:
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@main
-      - name: Install dependencies
-        run: npm install
-      - name: Build dependencies
-        run: npm run build
-      - name: Archive artifact
-        uses: actions/upload-artifact@main
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v3
+
+      - name: Use Node.js 16
+        uses: actions/setup-node@v2
         with:
-          name: dist
-          path: dist
-  deploy:
-    name: 🚀 Deploy
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repoditory
-        uses: actions/checkout@main
-      - name: Download artifact
-        uses: actions/download-artifact@main
-        with:
-          name: dist
-          path: dist
-      - name: Sync files to hosting
+          node-version: "16"
+
+      - name: 🔨 Build Project
+        run: |
+          npm install
+          npm run build
+
+      - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: 108.181.92.67
