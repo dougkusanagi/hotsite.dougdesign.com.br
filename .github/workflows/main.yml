@@ -16,11 +16,11 @@ jobs:
           bun install
           bun run nuxi generate
 
-      - name: Archive nuxt dist
-        uses: actions/upload-artifact@v3
-        with:
-          name: dist
-          path: dist/
+      # - name: Archive nuxt dist
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: dist
+      #     path: dist/
 
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
