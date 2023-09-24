@@ -12,12 +12,23 @@ useHead({
   ],
 });
 
+// useSeoMeta({
+//   title: "Douglas Lopes",
+//   description:
+//     "I'm Douglas Lopes, a Frelancer Designer and Full Stack Dev. I design logos, websites and code in Javascript and PHP since 2014.",
+//   // reactive example
+//   ogImage: "/douglas-lopes-fotografia-p&b.png",
+// });
+
 useSeoMeta({
   title: "Douglas Lopes",
+  ogTitle: "Douglas Lopes",
   description:
     "I'm Douglas Lopes, a Frelancer Designer and Full Stack Dev. I design logos, websites and code in Javascript and PHP since 2014.",
-  // reactive example
+  ogDescription:
+    "I'm Douglas Lopes, a Frelancer Designer and Full Stack Dev. I design logos, websites and code in Javascript and PHP since 2014.",
   ogImage: "/douglas-lopes-fotografia-p&b.png",
+  twitterCard: "summary_large_image",
 });
 </script>
 
