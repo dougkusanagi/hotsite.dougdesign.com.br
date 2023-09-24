@@ -11,6 +11,14 @@ useHead({
     },
   ],
 });
+
+useSeoMeta({
+  title: "Douglas Lopes",
+  description:
+    "I'm Douglas Lopes, a Frelancer Designer and Full Stack Dev. I design logos, websites and code in Javascript and PHP since 2014.",
+  // reactive example
+  ogImage: "/douglas-lopes-fotografia-p&b.png",
+});
 </script>
 
 <template>
