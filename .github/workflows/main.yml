@@ -8,15 +8,21 @@ jobs:
       - name: 🚚 Get latest code
         uses: actions/checkout@v3
 
-      - name: Use Node.js 16
-        uses: actions/setup-node@v2
-        with:
-          node-version: "16"
+      # - name: Use Node.js 16
+      #   uses: actions/setup-node@v2
+      #   with:
+      #     node-version: "16"
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
 
       - name: 🔨 Build Project
+        # run: |
+        #   npm install
+        #   npm run build
         run: |
-          npm install
-          npm run build
+          bun install
+          bun run build
 
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
@@ -24,3 +30,4 @@ jobs:
           server: 108.181.92.67
           username: jefrovt1
           password: ${{ secrets.ftp_pass }}
+          server-dir: public_html/hotsite
