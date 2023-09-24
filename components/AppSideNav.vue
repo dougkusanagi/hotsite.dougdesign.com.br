@@ -2,7 +2,7 @@
   <nav class="flex flex-col justify-between min-h-screen py-8 w-80">
     <AppLogo class="w-40 mx-auto" />
 
-    <div class="flex flex-col gap-4 mx-auto mb-24 w-44">
+    <div class="flex-col hidden gap-4 mx-auto mb-24 w-44">
       <a class="flex gap-4 text-[#224D8C] font-bold" href="#">
         <span
           class="flex items-center justify-center rounded-full w-7 h-7 bg-slate-200"

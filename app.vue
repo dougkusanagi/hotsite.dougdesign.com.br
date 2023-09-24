@@ -1,4 +1,8 @@
 <template>
+  <header>
+    <title>Douglas Lopes</title>
+  </header>
+
   <div class="flex">
     <AppSideNav />
 
@@ -11,11 +15,11 @@
         />
 
         <div class="flex flex-col gap-2">
-          <h2 class="text-xl font-bold text-yellow-500">
+          <h2 class="text-xl font-bold text-yellow-600">
             Hi, i'm Douglas Lopes
           </h2>
 
-          <p class="text-4xl text-[#7E95AF]">
+          <p class="text-4xl text-[#5d748f]">
             I'm a Frelancer Designer and Full Stack Dev. I design logos,
             websites and code in Javascript and PHP since 2014.
           </p>
@@ -24,7 +28,7 @@
         <div class="flex gap-4">
           <a
             href="#"
-            class="bg-white text-[#95C5FF] font-medium w-44 h-14 flex items-center justify-center rounded-lg shadow hover:bg-slate-100 hover:translate-y-[2px] hover:shadow-none hover:border hover:border-white transition-all duration-100"
+            class="bg-white text-[#699bd8] font-medium w-44 h-14 flex items-center justify-center rounded-lg shadow hover:bg-slate-100 hover:translate-y-[2px] hover:shadow-none hover:border hover:border-white transition-all duration-100"
           >
             My Work
           </a>
@@ -40,29 +44,38 @@
 
       <article class="flex flex-col gap-6 mt-16 mx-14">
         <div class="flex flex-col gap-2">
-          <h2 class="text-xl font-bold text-yellow-500">Some recent works</h2>
+          <h2 class="text-xl font-bold text-yellow-600">Some recent works</h2>
 
           <div class="flex gap-4 mt-3">
-            <a
-              href="#"
-              class="bg-white font-medium w-72 h-28 flex items-center justify-center rounded-lg shadow hover:bg-slate-50 hover:mt-[2px] transition-all duration-100"
+            <div
+              class="flex items-center justify-center font-medium transition-all duration-100 bg-white rounded-lg shadow grayscale hover:translate-y-[2px] w-72 h-28 hover:grayscale-0"
             >
-              <img class="max-h-24" src="/portfolio-logo-1.svg" />
-            </a>
+              <img
+                class="max-h-24"
+                src="/portfolio-logo-1.svg"
+                alt="Logo Cantinho do Podcast"
+              />
+            </div>
 
-            <a
-              href="#"
-              class="bg-[#1B2533] font-medium w-72 h-28 flex items-center justify-center rounded-lg shadow hover:bg-slate-50 hover:mt-[2px] transition-all duration-100"
+            <div
+              class="bg-[#1B2533] grayscale font-medium w-72 h-28 flex items-center justify-center rounded-lg shadow hover:grayscale-0 hover:translate-y-[2px] transition-all duration-100"
             >
-              <img class="max-h-20" src="/portfolio-logo-2.svg" />
-            </a>
+              <img
+                class="max-h-20"
+                src="/portfolio-logo-2.svg"
+                alt="Logo Cordeiro Advogados"
+              />
+            </div>
 
-            <a
-              href="#"
-              class="bg-white font-medium w-72 h-28 flex items-center justify-center rounded-lg shadow hover:bg-slate-50 hover:mt-[2px] transition-all duration-100"
+            <div
+              class="flex items-center justify-center font-medium transition-all duration-100 bg-white rounded-lg shadow grayscale hover:translate-y-[2px] w-72 h-28 hover:grayscale-0"
             >
-              <img class="max-h-24" src="/portfolio-logo-3.svg" />
-            </a>
+              <img
+                class="max-h-24"
+                src="/portfolio-logo-3.svg"
+                alt="Logo Escola Nossa Senhora de Fátima"
+              />
+            </div>
           </div>
         </div>
       </article>
