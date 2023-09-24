@@ -30,4 +30,4 @@ jobs:
           server: 108.181.92.67
           username: jefrovt1
           password: ${{ secrets.ftp_pass }}
-          server-dir: public_html/hotsite
+          server-dir: public_html/hotsite/
