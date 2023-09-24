@@ -1,0 +1,51 @@
+<template>
+  <nav class="flex flex-col justify-between min-h-screen py-8 w-80">
+    <AppLogo class="w-40 mx-auto" />
+
+    <div class="flex flex-col gap-4 mx-auto mb-24 w-44">
+      <a class="flex gap-4 text-[#224D8C] font-bold" href="#">
+        <span
+          class="flex items-center justify-center rounded-full w-7 h-7 bg-slate-200"
+        >
+          <span class="block w-4 h-4 rounded-full bg-[#224D8C]"></span>
+        </span>
+
+        Home
+      </a>
+
+      <a class="flex gap-4 font-bold text-gray-500" href="#">
+        <span
+          class="flex items-center justify-center rounded-full w-7 h-7 bg-slate-200"
+        >
+          <span class="hidden w-4 h-4 rounded-full bg-[#224D8C]"></span>
+        </span>
+
+        Portfolio
+      </a>
+
+      <a class="flex gap-4 font-bold text-gray-500" href="#">
+        <span
+          class="flex items-center justify-center rounded-full w-7 h-7 bg-slate-200"
+        >
+          <span class="hidden w-4 h-4 rounded-full bg-[#224D8C]"></span>
+        </span>
+
+        Contact
+      </a>
+    </div>
+
+    <div class="flex gap-2 mx-auto">
+      <a href="https://www.facebook.com/DougDesignReal/" target="_blank">
+        <img src="/social-facebook-icon.svg" alt="facebook" />
+      </a>
+
+      <a href="https://www.instagram.com/doouglopes/" target="_blank">
+        <img src="/social-instagram-icon.svg" alt="instagram" />
+      </a>
+
+      <a href="https://twitter.com/DougLopesReal" target="_blank">
+        <img src="/social-twitter-icon.svg" alt="twitter" />
+      </a>
+    </div>
+  </nav>
+</template>
