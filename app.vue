@@ -27,7 +27,7 @@ useSeoMeta({
   ogTitle: "Douglas Lopes",
   ogDescription:
     "I'm Douglas Lopes, a Frelancer Designer and Full Stack Dev. I design logos, websites and code in Javascript and PHP since 2014.",
-  ogImage: "https://hotsite.dougdesign.com.br/douglas-lopes-fotografia-p&b.png",
+  ogImage: "https://hotsite.dougdesign.com.br/logo.svg",
   twitterCard: "summary_large_image",
   twitterCreator: "@DougLopesReal",
   twitterTitle: "Douglas Lopes",
