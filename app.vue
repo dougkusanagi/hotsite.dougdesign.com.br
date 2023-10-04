@@ -41,7 +41,7 @@ useSeoMeta({
     >
       <article class="flex flex-col gap-6 mx-4 mt-10 sm:mt-12 sm:mx-14">
         <img
-          class="mx-auto rounded-full shadow sm:mx-0 w-52 sm:w-48"
+          class="mx-auto rounded-full shadow sm:mx-0 w-44 sm:w-52"
           src="/douglas-lopes-fotografia-p&b.png"
           alt="fotografia p&b de Douglas Lopes "
           width="208"
@@ -53,7 +53,7 @@ useSeoMeta({
             Hi, i'm Douglas Lopes
           </h2>
 
-          <p class="text-4xl text-[#5d748f]">
+          <p class="text-2xl sm:text-4xl text-[#5d748f]">
             I'm a Frelancer Designer and Full Stack Dev. I design logos,
             websites and code in Javascript and PHP since 2014.
           </p>
@@ -61,7 +61,7 @@ useSeoMeta({
 
         <div class="flex flex-col gap-4 sm:flex-row">
           <a
-            href="#"
+            href="#portfolio"
             class="bg-white text-[#4c79af] font-medium w-full sm:w-44 h-14 flex items-center justify-center rounded-lg shadow hover:bg-slate-100 hover:translate-y-[2px] hover:shadow-none hover:border hover:border-white transition-all duration-100"
           >
             My Work
@@ -76,13 +76,15 @@ useSeoMeta({
         </div>
       </article>
 
-      <article class="flex flex-col gap-6 mx-4 mt-16 sm:mx-14">
+      <article class="flex flex-col gap-6 mx-4 mt-16 mb-16 sm:mx-14 sm:mb-0">
         <div class="flex flex-col gap-2">
-          <h2 class="text-xl font-bold text-yellow-700">Some recent works</h2>
+          <h2 class="text-xl font-bold text-yellow-700" id="portfolio">
+            Some recent works
+          </h2>
 
-          <div class="flex gap-4 mt-3">
+          <div class="flex flex-col gap-4 mt-3 sm:flex-row">
             <div
-              class="flex items-center justify-center font-medium transition-all duration-100 bg-white rounded-lg shadow grayscale hover:translate-y-[2px] w-72 h-28 hover:grayscale-0"
+              class="flex items-center justify-center font-medium transition-all duration-100 bg-white rounded-lg shadow grayscale hover:translate-y-[2px] w-full sm:w-72 h-28 hover:grayscale-0"
             >
               <img
                 class="max-h-24"
@@ -94,7 +96,7 @@ useSeoMeta({
             </div>
 
             <div
-              class="bg-[#1B2533] grayscale font-medium w-72 h-28 flex items-center justify-center rounded-lg shadow hover:grayscale-0 hover:translate-y-[2px] transition-all duration-100"
+              class="bg-[#1B2533] grayscale font-medium w-full sm:w-72 h-28 flex items-center justify-center rounded-lg shadow hover:grayscale-0 hover:translate-y-[2px] transition-all duration-100"
             >
               <img
                 class="max-h-20"
@@ -106,7 +108,7 @@ useSeoMeta({
             </div>
 
             <div
-              class="flex items-center justify-center font-medium transition-all duration-100 bg-white rounded-lg shadow grayscale hover:translate-y-[2px] w-72 h-28 hover:grayscale-0"
+              class="flex items-center justify-center font-medium transition-all duration-100 bg-white rounded-lg shadow grayscale hover:translate-y-[2px] w-full sm:w-72 h-28 hover:grayscale-0"
             >
               <img
                 class="max-h-24"
