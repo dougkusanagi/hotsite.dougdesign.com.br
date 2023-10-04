@@ -1,5 +1,7 @@
 <template>
-  <nav class="flex flex-col justify-between min-h-screen py-8 w-80">
+  <nav
+    class="justify-between hidden min-h-screen py-8 sm:flex-col sm:flex w-80"
+  >
     <AppLogo class="w-40 mx-auto" />
 
     <div class="flex-col hidden gap-4 mx-auto mb-24 w-44">

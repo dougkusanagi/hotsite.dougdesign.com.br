@@ -44,10 +44,12 @@ useSeoMeta({
   <div class="flex">
     <AppSideNav />
 
-    <main class="flex-1 mt-4 mr-4 bg-gray-50 rounded-t-2xl">
-      <article class="flex flex-col gap-6 mt-12 mx-14">
+    <main
+      class="flex-1 max-w-full bg-gray-100 sm:mt-4 sm:ml-4 sm:rounded-tl-xl"
+    >
+      <article class="flex flex-col gap-6 mx-4 mt-10 sm:mt-12 sm:mx-14">
         <img
-          class="rounded-full shadow w-52"
+          class="w-32 rounded-full shadow sm:w-52"
           src="/douglas-lopes-fotografia-p&b.png"
           alt="fotografia p&b de Douglas Lopes "
           width="208"
@@ -65,24 +67,24 @@ useSeoMeta({
           </p>
         </div>
 
-        <div class="flex gap-4">
+        <div class="flex flex-col gap-4 sm:flex-row">
           <a
             href="#"
-            class="bg-white text-[#4c79af] font-medium w-44 h-14 flex items-center justify-center rounded-lg shadow hover:bg-slate-100 hover:translate-y-[2px] hover:shadow-none hover:border hover:border-white transition-all duration-100"
+            class="bg-white text-[#4c79af] font-medium w-full sm:w-44 h-14 flex items-center justify-center rounded-lg shadow hover:bg-slate-100 hover:translate-y-[2px] hover:shadow-none hover:border hover:border-white transition-all duration-100"
           >
             My Work
           </a>
 
           <a
             href="#"
-            class="bg-[#224D8C] font-medium w-44 h-14 flex items-center justify-center rounded-lg shadow text-white hover:brightness-90 hover:translate-y-[2px]"
+            class="bg-[#224D8C] font-medium w-full sm:w-44 h-14 flex items-center justify-center rounded-lg shadow text-white hover:brightness-90 hover:translate-y-[2px]"
           >
             Let's Talk
           </a>
         </div>
       </article>
 
-      <article class="flex flex-col gap-6 mt-16 mx-14">
+      <article class="flex flex-col gap-6 mx-4 mt-16 sm:mx-14">
         <div class="flex flex-col gap-2">
           <h2 class="text-xl font-bold text-yellow-700">Some recent works</h2>
 
