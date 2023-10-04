@@ -12,14 +12,6 @@ useHead({
   ],
 });
 
-// useSeoMeta({
-//   title: "Douglas Lopes",
-//   description:
-//     "I'm Douglas Lopes, a Frelancer Designer and Full Stack Dev. I design logos, websites and code in Javascript and PHP since 2014.",
-//   // reactive example
-//   ogImage: "/douglas-lopes-fotografia-p&b.png",
-// });
-
 useSeoMeta({
   title: "Douglas Lopes",
   description:
@@ -49,7 +41,7 @@ useSeoMeta({
     >
       <article class="flex flex-col gap-6 mx-4 mt-10 sm:mt-12 sm:mx-14">
         <img
-          class="w-32 rounded-full shadow sm:w-52"
+          class="mx-auto rounded-full shadow sm:mx-0 w-52 sm:w-48"
           src="/douglas-lopes-fotografia-p&b.png"
           alt="fotografia p&b de Douglas Lopes "
           width="208"
