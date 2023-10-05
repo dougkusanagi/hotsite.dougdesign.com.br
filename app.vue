@@ -39,7 +39,7 @@ useSeoMeta({
     <main
       class="flex-1 max-w-full bg-gray-100 sm:mt-4 sm:ml-4 sm:rounded-tl-xl"
     >
-      <article class="flex flex-col gap-6 mx-4 mt-10 sm:mt-12 sm:mx-14">
+      <article class="flex flex-col gap-6 mx-6 mt-10 sm:mt-12 sm:mx-14">
         <img
           class="mx-auto rounded-full shadow sm:mx-0 w-44 sm:w-52"
           src="/douglas-lopes-fotografia-p&b.png"
@@ -76,7 +76,7 @@ useSeoMeta({
         </div>
       </article>
 
-      <article class="flex flex-col gap-6 mx-4 mt-16 mb-16 sm:mx-14 sm:mb-0">
+      <article class="flex flex-col gap-6 mx-6 mt-16 mb-16 sm:mx-14 sm:mb-0">
         <div class="flex flex-col gap-2">
           <h2 class="text-xl font-bold text-yellow-700" id="portfolio">
             Some recent works
