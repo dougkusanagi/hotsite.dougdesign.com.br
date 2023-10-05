@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 useHead({
   htmlAttrs: {
     lang: "en",
@@ -20,11 +20,14 @@ useSeoMeta({
   ogDescription:
     "I'm Douglas Lopes, a Frelancer Designer and Full Stack Dev. I design logos, websites and code in Javascript and PHP since 2014.",
   ogImage: "https://hotsite.dougdesign.com.br/DG-logo-icon.png",
-  twitterCard: "summary_large_image",
+
+  twitterSite: "@DougLopesReal",
   twitterCreator: "@DougLopesReal",
+  twitterCard: "summary",
   twitterTitle: "Douglas Lopes",
   twitterDescription:
     "I'm Douglas Lopes, a Frelancer Designer and Full Stack Dev. I design logos, websites and code in Javascript and PHP since 2014.",
+  twitterImage: "https://hotsite.dougdesign.com.br/DG-logo-icon.png",
 });
 </script>
 
